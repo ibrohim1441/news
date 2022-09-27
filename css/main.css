@@ -1,0 +1,530 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+     max-width: 86.25rem;
+     margin: 0 auto;
+}
+.header_items{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin-top: 3.4rem;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.header_items_box{
+    display: flex;
+    list-style: none;
+    gap: 1.563rem;
+}
+
+.header_text a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: #263238;
+}
+.Let’s_Talk{
+    padding: 0.5rem 3.1rem;
+    border: 0.125rem solid #263238;
+    border-radius: 0.3rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2.25rem;
+    text-decoration: none;
+    text-shadow: 0rem 0.3rem 0.3rem rgba(0, 0, 0, 0.25);
+    color: white;
+    background-color: #263238;
+}
+.Let’s_Talk:hover{
+      background-color: white ;
+      color: black;
+      transition: 1s ease;
+}
+.header_text :hover{
+    color: rgba(38, 50, 56, 0.73);
+    transition: 0.5s ease;   
+}
+.section_learn_box{
+    display: flex;
+    margin-top: 6rem;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+}
+.section_text{
+    margin-top: 5rem;
+}
+.Learn_Any{
+    display: flex;
+    width: 25rem;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 5rem;
+    /* or 125% */    
+    color: #000000;
+}
+.our_teachers{
+    width: 35rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #8F95A5; 
+    margin-top: 2.5rem;   
+}
+.Get_started{
+    padding: 2rem 7.313rem;
+    text-decoration: none;
+    border-radius: 0.938rem;
+    margin-top: 2.5rem;
+    color: white;
+    background-color: #263238;
+}
+.Get_started:hover{
+    background-color: white;
+    color: black;
+    transition: 1s ease;
+    border: 0.125rem solid #263238;
+}
+.class{
+    margin-top: 3.813rem;
+}
+.images_logo{
+    width: 5.328rem;
+    height: 5.328rem;
+    position: absolute;
+    top: 25rem;
+    left: 31rem;
+}
+.section_skills_box{
+    display: flex;
+    justify-content: space-between;
+}
+.Writing{
+    display: flex;
+    gap: 1rem;
+}
+.section_skills{
+    font-family: 'Poppins', sans-serif;
+}
+.section_skills_item{
+    width: 27.188rem;  
+    background: #F5F5F5;
+    border-radius: 0.625rem;
+}
+.Writing_box{
+    width: 27.125rem;
+    background: #F5F5F5;
+    border-radius: 0.625rem; 
+}
+.writing_item{
+    width: 27.125rem;
+    background: #F5F5F5;
+    border-radius: 0.625rem; 
+}
+.Listening_box{
+    width: 55.313rem;
+    background: #F5F5F5;
+    border-radius: 0.625rem;
+}
+.section_skills_item h3{
+    width: 9rem;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 5rem;
+    /* identical to box height, or 267% */
+    color: #263238;
+    margin-left: 2.688rem;
+}
+.section_skills_item p{
+    width: 21.688rem;
+    height: 6.1rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 2.688rem;   
+    color: #8F95A5;
+}
+.Learn_more{
+    padding: 1.063rem 3.938rem 1rem 4.063rem;
+    text-decoration: none;
+    color: white;
+    background: #263238;
+    border-radius: 0.313rem;  
+    margin-left: 2.5rem;   
+}
+.Learn_more:hover{
+    background-color: white;
+    color: black;
+    transition: 1s ease;
+    border: 0.125rem solid #263238;
+}
+.Learn_more1{
+    margin-top: 2.25rem;
+}
+.writing_item{
+    margin-right: 2.5rem;
+}
+.Writing_box h3{
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 5rem;
+    /* identical to box height, or 267% */
+    color: #263238;
+    margin-left: 2.625rem;
+    margin-bottom: 3rem;
+
+}
+.Writing_box{
+    margin-left: 0.5rem;
+}
+.Writing_box p{
+    width: 22rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #8F95A5;
+    margin-left: 2.563rem;
+    margin-top: -3rem;
+}
+.learn_buy{
+    margin-top: 1.5rem;
+    margin-left: 2.4rem;
+}
+.Learn_buy{
+    padding: 1.063rem 3.938rem 1rem 4.063rem;
+    text-decoration: none;
+    color: white;
+    background: #263238;
+    border-radius: 0.313rem;  
+}
+.Learn_buy:hover{
+    background-color: white;
+    color: black;
+    transition: 1s ease;
+    border: 0.125rem solid #263238;
+}
+.writing_item h3{
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 5rem;
+    /* identical to box height, or 267% */
+    color: #263238;
+    margin-left: 2.563rem;
+   
+}
+
+.writing_item p{
+    width: 23rem;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 1.5rem;
+   color: #8F95A5;
+   margin-left: 2.688rem;
+   margin-bottom: 2.5rem;
+}
+.learn_item{
+    padding: 1.063rem 3.938rem 1rem 4.063rem;
+    text-decoration: none;
+    color: white;
+    background: #263238;
+    border-radius: 0.313rem; 
+    margin-left: 2.5rem;
+
+}
+.learn_item:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+    border: 0.125rem solid #263238;
+}
+.Listening_box_box h3{
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 5rem;
+    /* identical to box height, or 267% */   
+    color: #263238;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+.Listening_box{
+    width: 55.313rem;
+    height: 21.438rem;
+}
+.Listening_box_box h3{
+    font-family: 'Poppins', sans-serif;
+}
+.box_desc{
+    margin-bottom: 4rem;
+}
+.images_picture{
+    margin-left: 7.5rem;
+}
+.Listening_box_box p{
+    width: 21rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #8F95A5;
+    margin-left: 3rem;
+}
+.img_img_logo{
+    margin-left: 28rem;
+    margin-top: -7rem;
+}
+.div_item{
+    margin-left: 2.75rem;
+    
+}
+.Listening_box{
+    margin-top: -3rem;
+    margin-left: 0.5rem;
+}
+.div_item{
+    margin-top: 2rem;
+}
+.href_href{
+    padding: 1.063rem 3.938rem 1rem 4.063rem;
+    text-decoration: none;
+    color: white;
+    background: #263238;
+    border-radius: 0.313rem; 
+}
+.href_href:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+    border: 0.125rem solid #263238;
+}
+.About_Us{
+    display: flex;
+    margin-top: 5rem;
+}
+.About_Us_box{
+    margin-top: 3rem;
+    margin-right: 14rem;
+}
+.Pupils_item{
+    display: flex;
+    gap: 10.188rem;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 5rem;
+    /* identical to box height, or 167% */
+    color: #2A3246;
+    margin-top: 3rem;
+}
+.Foreign{
+    display: flex;
+    gap: 12rem;
+}
+.desc{
+    margin-left: 5rem;
+}
+.About_Us_box h2{
+   font-weight: 600;
+   font-size: 3rem;
+   line-height: 5rem;
+   /* identical to box height, or 167% */
+   color: #000000;
+   margin-bottom: 1.438rem;
+}
+.model{
+    width: 41rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #8F95A5;
+}
+.Skills{
+    width: 7.75rem;
+    font-weight: 600;
+    margin-left: 38.75rem;
+    font-size: 3rem;
+    line-height: 5rem;
+    /* identical to box height, or 167% */    
+    color: #000000;    
+}
+.section_skills_box{
+    padding-top: 6rem;
+}
+.Pricing_items_box{
+    display: flex;
+    gap: 6rem;
+}
+.Self{
+    width: 23.25rem;
+   font-family: 'Poppins';
+    font-weight: 600;
+   font-size: 1.875rem;
+   line-height: 3rem;
+   /* identical to box height, or 160% */
+   color: #263238;
+   margin-top: 1rem;
+}
+.Self_2{
+    width: 23.25rem;
+    font-family: 'Poppins';
+     font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 3rem;
+    /* identical to box height, or 160% */
+    color: #263238;
+    margin-top: 2.625rem;
+}
+.Self_3{
+    width: 23.25rem;
+    font-family: 'Poppins';
+     font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 3rem;
+    /* identical to box height, or 160% */
+    color: #263238;
+    margin-top: -1.1rem;
+}
+.Pricing_items_box{
+    margin-top: 3.563rem;
+}
+.Pricing_text{
+    margin-top: 13.875rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 5rem;
+    /* identical to box height, or 167% */
+   color: #000000;
+}
+.Start{
+    width: 355px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #8F95A5;
+    margin-top: 1.1rem;
+}
+.per_month{
+    padding: 0.7rem 2.5rem;
+    background: #EEEEEE;
+    border-radius: 0.313rem;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 22rem;
+}
+.span_box{
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 2.813rem;
+    /* identical to box height */ 
+    color: #263238;
+}
+.per_month_item{
+    margin-top: 2rem;
+}
+.Interactive{
+    width: 25rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #8F95A5;
+    margin-top: 1.438rem;
+}
+.per_monthh{
+    padding: 0.7rem 2.5rem;
+    background: #EEEEEE;
+    border-radius: 0.313rem;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 22rem;
+}
+.spanspan{
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 2.813rem;
+    /* identical to box height */ 
+    color: #263238;
+}
+.box_text{
+    margin-top: 3.688rem;
+}
+.Online_text{
+    width: 39.688rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #8F95A5;
+    margin-top: 1.25rem;
+}
+.permonth {
+    padding: 0.7rem 2.5rem;
+    background: #EEEEEE;
+    border-radius: 0.313rem;
+    text-decoration: none;
+    color: #000000;
+}
+.descdesc{
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 2.813rem;
+    /* identical to box height */ 
+    color: #263238;
+}
+.monthper{
+    margin-top: 3.688rem;
+}
+.ContactUs_box{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 16.063rem;
+}
+.Contact_items{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 5rem;
+    /* identical to box height, or 167% */
+    color: #000000;
+    margin-left: 6.938rem;
+}
+.English{
+    width: 46.9rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #8F95A5; 
+    margin-left: 6.938rem;
+    margin-top: 2.313rem;
+}
+.form_grp{
+    margin-left: 6.938rem;
+    margin-top: 3.125rem;
+}
+.text_group{
+    padding: 1.625rem 15.625rem 1.875rem 2.063rem;
+    border: 0.063rem solid #8F95A5;
+    border-radius: 0.625rem;
+}
+.button_tg{
+    padding: 1.563rem 5.063rem;
+    background: #263238;
+    border-radius: 0.625rem;
+    color: white;
+}
+.footer_box_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 1.938rem;
+    line-height: 2.25rem;
+    /* identical to box height */
+    color: #8F95A5;
+}
+hr{
+    margin-top: 8rem;
+}
